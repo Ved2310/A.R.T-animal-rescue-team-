@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_on_secondary"
+    tools:context="com.example.artauthentication.Peopleforanimal">
+
+    <EditText
+        android:id="@+id/infoother"
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:layout_marginTop="278dp"
+        android:background="@null"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text=" Humane Society International (HSI) claims to address issues such as inhumane practices and conditions affecting companion and farm animals, illegal wildlife trade, threats to endangered species, slaughter of marine mammals, the use of animals in research and testing, the suffering of animals for the fur trade. HSI works with national and jurisdictional governments, humane organizations, and individual animal protectionists in over 50 countries worldwide to find practical, culturally sensitive, and long-term solutions to common animal problems and to inculcate an ethic of respect and compassion for all life"
+        android:textColor="#FAE9E9"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/_imageother"
+        android:layout_width="387dp"
+        android:layout_height="203dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:background="#FFFFFF"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/humane" />
+
+    <TextView
+        android:id="@+id/_tittleother"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:text="Founded in:1991,Managing Director Alokparna Sengupta"
+        android:textColor="#DAA5B7"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoother"
+        android:text="Type : Animal Welfare Organisation."
+        android:textColor="#F8E5CA"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:layout_marginTop="7dp"
+        android:autoLink="web"
+        android:text="Official Website : hsi.org"
+        android:textColor="#F8E5CA"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_marginTop="7dp"
+        android:autoLink="web"
+        android:textStyle="bold|italic"
+        android:textSize="18dp"
+        android:textColor="#F0F8F7"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView8"
+        android:text="Donate here : https://donate.hsi.org/page/23410/donate/1?locale=en-CBea.tracking.id=websiterecurring=Y" />
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_on_secondary"
+    tools:context="com.example.artauthentication.Peopleforanimal">
+
+    <EditText
+        android:id="@+id/infoother"
+        android:layout_width="394dp"
+        android:layout_height="337dp"
+        android:layout_marginTop="253dp"
+        android:background="@null"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text='People for the Ethical Treatment of Animals is an American animal rights organization based in Norfolk, Virginia, and led by Ingrid Newkirk, its international president. The nonprofit corporation claims 6.5 million supporters. Its slogan is "Animals are not ours to experiment on, eat, wear, use for entertainment, or abuse in any other way.PETA India was founded in 2000 and is based in Mumbai, India. It focuses on issues about animals in laboratories, the food industry, the leather trade, and entertainment."After more than 16 years of campaigning for animal rights, PETA India has named as its new CEO, effective today, Dr Manilal Valliyate, former co-opted member of the Animal Welfare Board of India, which operates under the Ministry of Environment, Forest and Climate Change, and present member of the Kerala State Animal Welfare Board.'
+        android:textColor="#FAE9E9"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/_imageother"
+        android:layout_width="370dp"
+        android:layout_height="168dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#FFFFFF"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/peta" />
+
+    <TextView
+        android:id="@+id/_tittleother"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text='"Founder : INGRID NEWKRIK AND ALEX PACHECO-1980"'
+        android:textColor="#DAA5B7"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoother"
+        android:layout_marginTop="10dp"
+        android:text="Focus	: Animal rights and animal welfare"
+        android:textColor="#F8E5CA"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:layout_marginTop="10dp"
+        android:autoLink="web"
+        android:text="Official Website : www.petaindia.com"
+        android:textColor="#F8E5CA"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_below="@id/textView8"
+        android:layout_marginTop="10sp"
+        android:autoLink="web"
+        android:textStyle="bold|italic"
+        android:textSize="17dp"
+        android:textColor="#F8E5CA"
+        android:layout_height="wrap_content"
+        android:text="Donate Here : https://www.petaindia.com/donate/become-member/credit-card" />
+
+
+</RelativeLayout>

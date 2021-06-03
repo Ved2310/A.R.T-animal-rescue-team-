@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#191818">
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_marginTop="50dp"
+        android:background="@null"
+        android:enabled="false"
+        android:hint="email:"
+        android:text="art.rescue.7@gmail.com , siddheshm26@gmail.com"
+        android:textColor="#D6ADDD"
+        android:textColorHint="#FBFAFA" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary"/>
+
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:gravity="start|top"
+        android:hint="Subject:"
+        android:lines="5"
+        android:textColor="#F6DCDC"
+        android:textColorHint="#84FFFFFF" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:gravity="start|top"
+        android:hint="Enter your message"
+        android:lines="5"
+        android:textColor="#F6DCDC"
+        android:textColorHint="#7EFFFFFF" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A8A76BB1"
+        android:text="Send to us!"
+        android:textColor="#DCFFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@null"
+        android:inputType="textEmailAddress" />
+
+
+</LinearLayout>
+
+

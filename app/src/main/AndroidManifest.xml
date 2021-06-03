@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.artauthentication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="A.R.T"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/SplashScreenTheme"
+        tools:targetApi="q"
+        tools:ignore="ExtraText">
+        <activity android:name=".rabbit" ></activity>
+        <activity android:name=".Alex" />
+        <activity android:name=".Rock" />
+        <activity android:name=".Snowy" />
+        <activity android:name=".Chloe" />
+        <activity android:name=".Bailey" />
+        <activity android:name=".Max" />
+        <activity android:name=".new_adopt" android:theme="@style/AppTheme"/>
+        <activity android:name=".MainActivity" android:theme="@style/AppTheme"/>
+        <activity android:name=".boutus" android:theme="@style/AppTheme" />
+        <activity android:name=".AnySuggest" android:theme="@style/AppTheme" />
+        <activity android:name=".ContactUs" android:theme="@style/AppTheme" />
+        <activity android:name=".DeveloperInfo" android:theme="@style/AppTheme"/>
+        <activity android:name=".Help" android:theme="@style/AppTheme" />
+        <activity android:name=".Settings" android:theme="@style/AppTheme" />
+        <activity android:name=".ImagesActivity" android:theme="@style/AppTheme"/>
+        <activity android:name=".SplashScreen" />
+        <activity android:name=".humane" android:theme="@style/AppTheme" />
+        <activity android:name=".animalaid" android:theme="@style/AppTheme" />
+        <activity android:name=".wildlife" android:theme="@style/AppTheme" />
+        <activity android:name=".kenel" android:theme="@style/AppTheme"/>
+        <activity android:name=".bluecross" android:theme="@style/AppTheme" />
+        <activity android:name=".peta" android:theme="@style/AppTheme"/>
+        <activity android:name=".Peopleforanimal" android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AnotherActivity"
+            android:parentActivityName=".DashBoard" android:theme="@style/AppTheme" />
+        <activity android:name=".DashBoard" android:theme="@style/AppTheme"/>
+        <activity android:name=".About" android:theme="@style/AppTheme"/>
+        <activity android:name=".all" />
+        <activity android:name=".Donate" android:theme="@style/AppTheme" />
+        <activity android:name=".currentLocation" android:theme="@style/AppTheme"/>
+        <activity android:name=".Login" android:theme="@style/AppTheme" />
+        <activity android:name=".Register">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+</manifest>

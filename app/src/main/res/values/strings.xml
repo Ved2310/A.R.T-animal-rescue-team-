@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="HELP">HELP</string>
+    <string name="app_name">app_name</string>
+
+    <string name="article_string">article_string</string>
+    <string name="article_subheading">article_subheading</string>
+    <string name="paragraph"><b>1. How ART help the animals?</b>\n\n
+        => <i>We conduct hands on rescue for stray animals emergencies and trauma cases. We take unwanted, abandoned., abused, Or stray pets and attempts to find a suitable home for them.</i>\n\n
+
+        \n<b>2. How can you rescue the animals?</b>\n\n
+=><i>To help an animal who in immediate physical danger or in urgent need of veterinary care, please contact us on our emergency no	Other contact details are
+            provided for non emergencies.</i>\n\n
+
+        \n<b>3. What is pet adoption?</b>\n\n
+        =><i>Pet adoption is the process of taking responsibility for a pet that has abandoned, stray, lost or surrendered.</i>\n\n
+        \n<b>4. Why you should adopt animals instead of buying them?</b>\n\n
+        =><i>The number of euthanized animals could be reduced dramatically. If more people adopted pets instead of buying them. When you adopt, you save a loving animal by making them part of your family and open up shelter space for another animal who might desperately need it.</i>\n\n
+
+        \n<b>5. Why should we donate for animals?</b>\n\n
+        => <i>Because it helps to decrease number of strays and provide pets for families, kids and the elderly. All around the world, millions of people look to animals for companionship.</i>\n\n
+
+        \n<b>6. What are your animal donations used for?</b>\n\n
+        => <i>Donations are lifeband of non-profit organizations. Your donations goes straight to work helping tens of thousands of homeless animals. It will help to buy enough cleaning supplies, will provide comfortable bed and blanket to animal, will buy toys, to keep homeless animals happy and having fun during the times of day. Help them with a broken bones get back to their good old selves. For vaccination of puppies and kitties ready for their new homes.</i>\n\n
+
+</string>
+
+</resources>

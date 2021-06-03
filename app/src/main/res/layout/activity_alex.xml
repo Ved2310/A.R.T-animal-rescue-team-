@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_focused"
+    tools:context="com.example.artauthentication.Max">
+
+
+    <Button
+        android:id="@+id/btnalex"
+        android:layout_width="177dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="133dp"
+
+        android:background="@drawable/btn_adopt"
+        android:text="For adoption click here"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagealex"
+        app:layout_constraintVertical_bias="0.291" />
+
+    <ImageView
+        android:id="@+id/imagealex"
+        android:layout_width="283dp"
+        android:layout_height="355dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="69dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textalex"
+        app:srcCompat="@drawable/pupp" />
+
+    <TextView
+        android:id="@+id/textalex"
+        android:layout_width="368dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="43dp"
+        android:text="Name : ALEX , Age : 1year , Rescued : 07/09"
+        android:textColor="#CDF5FA"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

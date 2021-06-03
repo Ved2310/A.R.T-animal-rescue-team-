@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/frnd"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".currentLocation">
+
+    <Button
+        android:id="@+id/bt_location"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/btntwo"
+        android:text="Give your current location"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/button_choose_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/btntwo"
+        android:text="Choose"
+        android:textColor="@color/cardview_light_background" />
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="615dp"
+        android:layout_marginBottom="15dp"
+        android:background="#0F1640"
+        android:text="Upload"
+        android:textColor="@color/cardview_light_background" />
+
+    <EditText
+        android:id="@+id/edit_text_file_name"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="230dp"
+        android:layout_toEndOf="@+id/button_choose_file"
+        android:hint="Enter file name"
+        android:textColor="#FAE5E5"
+        android:textColorHint="#E4F2F8" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="381dp"
+        android:layout_height="251dp"
+        android:layout_below="@+id/edit_text_file_name"
+        android:layout_marginTop="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_view1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:textColor="#E6D9FB"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:textColor="#E6D9FB"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_view4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:layout_weight="1"
+            android:textColor="#E6D9FB"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="575dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/text_view5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:textColor="#E6D9FB"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#120130" />
+
+    <TextView
+        android:id="@+id/text_view_show_uploads"
+        android:layout_width="112dp"
+        android:layout_height="30dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="665dp"
+        android:gravity="center"
+        android:text="Show Uploads"
+        android:textColor="#0F1640"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button_camera"
+        android:layout_width="112dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="640dp"
+        android:background="#0F1640"
+        android:text="Camera"
+        android:textColor="@color/cardview_light_background" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="112dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="640dp"
+        android:background="#0F1640"
+        android:text="Save"
+        android:textColor="@color/cardview_light_background" />
+
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/rescue"
+                    android:layout_width="300dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/custom_buttons"
+                    android:text="RESCUE"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/adopt"
+                    android:layout_width="300dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/custom_buttons"
+                    android:text="ADOPT"
+                    android:textSize="24sp"/>
+
+                <Button
+                    android:id="@+id/donate"
+                    android:layout_width="300dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/custom_buttons"
+                    android:text="A.R.T"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="435dp"
+        android:layout_marginTop="160dp"
+        android:background="@android:color/background_dark">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="210dp"
+            app:srcCompat="@drawable/images" />
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/refresh"
+            android:layout_width="match_parent"
+            android:layout_height="195dp">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:fontFamily="@font/alegreya_sans_sc_bold_italic"
+                android:text="* Intentional cruelty to animals is strongly correlated with other crimes, including violence against people.
+
+
+
+
+                                                                                 * Hoarding behavior often victimizes animals. Sufferers of a hoarding disorder may impose severe neglect on animals by housing far more than they are able to adequately take care of.
+"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"></TextView>
+
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    </RelativeLayout>
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:itemBackground="@color/colorPrimary"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="72dp"
+            android:background="@drawable/custom_buttons"
+            android:text="Sign Out"
+            android:textColor="#131313"
+            android:textColorHint="#0E0E0E"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>

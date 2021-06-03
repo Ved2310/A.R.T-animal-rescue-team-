@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_on_secondary"
+    tools:context="com.example.artauthentication.Peopleforanimal">
+
+    <EditText
+        android:id="@+id/infoother"
+        android:layout_width="match_parent"
+        android:layout_height="332dp"
+        android:layout_marginTop="245dp"
+        android:background="@null"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="The Indian National Kennel Club is a registry of purebred dogs in India. Beyond maintaining its pedigree registry, this kennel club also promotes and sanctions events for purebred dogs, including dog shows and specialty shows.The Indian National Kennel Club was established on 21 March 1957 to promote the love of dogs, and enable proper breeding, rearing and training of dogs.The Indian National Kennel Club is the leading authority on registration of purebreds and maintains the recognized registry. It issues pedigrees for purebreds and litters. It hosts various seminars, workshops, training classes and annual shows across the country, and awards championships to various breeds of dogs.
+
+The president of the Indian National Kennel Club is H. H. Maharana Mahipendra Singh of Danta. Mrs. Ratty P. Javeri is the secretary and a founder member of the organization."
+        android:textColor="#FAE9E9"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/_imageother"
+        android:layout_width="393dp"
+        android:layout_height="190dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="5dp"
+        android:background="#FFFFFF"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/kenel" />
+
+    <TextView
+        android:id="@+id/_tittleother"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:text="Founder : Mrs.Ratty P.Javeri-1957"
+        android:textColor="#DAA5B7"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoother"
+        android:layout_marginTop="1dp"
+        android:text="Headquarters : Mumbai,India."
+        android:textColor="#F8E5CA"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView5"
+        android:layout_marginTop="7dp"
+        android:autoLink="web"
+        android:text="Official Website : www.inkc.in"
+        android:textColor="#F8E5CA"
+        android:textSize="17sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView8"
+        android:layout_marginTop="2dp"
+        android:autoLink="web"
+        android:text="Donate here : https://www.inkc.in/inkc-store/charity/donations/"
+        android:textColor="#F0F8F7"
+        android:textSize="17sp"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>
+
+

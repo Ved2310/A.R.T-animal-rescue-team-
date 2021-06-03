@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_on_secondary"
+    tools:context="com.example.artauthentication.Peopleforanimal">
+
+    <EditText
+        android:id="@+id/infoother"
+        android:layout_width="381dp"
+        android:layout_height="296dp"
+        android:layout_marginTop="240dp"
+        android:background="@null"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Animal Aid Unlimited or AAU, founded in 2002, is an Indian animal rescue organization, based in Udaipur city of Rajasthan which rescues and treats animals that are sick, injured, stuck or in need of urgent medical aid and attention.They gained more popularity worldwide after they started posting videos of their rescue on their YouTube channel, Animal Aid Unlimited, India. As of January 2020, their YouTube channel has over 4.9 million subscribers.Some of the most viral videos of the channel are 'Wounded and bleeding donkey stranded on highway rescued', 'A drowning dogs desperate wish comes true' and 'Stuck for hours in rock solid tar, puppies rescued' all of which have 144, 78 and 46 million views respectively. "
+        android:textColor="#FAE9E9"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/_imageother"
+        android:layout_width="393dp"
+        android:layout_height="190dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:background="#FFFFFF"
+        android:scaleType="center"
+        app:srcCompat="@drawable/animald" />
+
+    <TextView
+        android:id="@+id/_tittleother"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:text="Founder : Erika, Jim, Claire Abrams Myers"
+        android:textColor="#DAA5B7"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/infoother"
+        android:layout_marginTop="10dp"
+        android:text="Type : Animal welfare NGO."
+        android:textColor="#F8E5CA"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/textView4"
+        android:layout_marginTop="7dp"
+        android:text="Formation : 2002"
+        android:textColor="#F8E5CA"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView5"
+        android:layout_marginTop="7dp"
+        android:text="Founded at : Udaipur city og Rajasthan,India."
+        android:textColor="#F8E5CA"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6"
+        android:layout_marginTop="7dp"
+        android:autoLink="web"
+        android:text="Official Website : https://animalaidunlimited.org"
+        android:textColor="#F8E5CA"
+        android:textSize="17sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView8"
+        android:layout_marginTop="2dp"
+        android:autoLink="web"
+        android:text="Donate here : https://www.animalaidunlimited.org/donations/monthly-donation/"
+        android:textColor="#F0F8F7"
+        android:textSize="17dp"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>
